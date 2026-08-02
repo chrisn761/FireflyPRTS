@@ -12,7 +12,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "这是普普的技术分享博客",
 
 	// 站点 URL
-	site_url: "https://firefly.cuteleaf.cn",
+	site_url: "https://blog.325761.xyz/",
 
 	// 站点描述
 	description:
@@ -20,13 +20,11 @@ export const siteConfig: SiteConfig = {
 
 	// 站点关键词
 	keywords: [
-		"Firefly",
-		"Fuwari",
-		"Astro",
-		"ACGN",
-		"博客",
-		"技术博客",
-		"静态博客",
+		"医工交叉科研交流",
+		"计算机视觉",
+		"多模态LLM",
+		"AI Agent",
+		"技术交流博客",
 	],
 
 	// 主题色
