@@ -2,10 +2,11 @@ import type { AnnouncementConfig } from "../types/announcementConfig";
 
 export const announcementConfig: AnnouncementConfig = {
 	// 公告标题
-	title: "公告",
+	title: "宏山科学院公告",
 
 	// 公告内容
-	content: "欢迎来到我的博客！这是一则示例公告。",
+	content:
+		"庄方宜,女,龙族,1079年4月生,勾吴堪江人。现任武陵十六届区委常委、武陵研究院院长。",
 
 	// 是否允许用户关闭公告
 	closable: true,
