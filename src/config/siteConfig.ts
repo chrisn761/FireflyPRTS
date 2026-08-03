@@ -6,17 +6,17 @@ const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "PRTS",
+	title: "Endfield",
 
 	// 站点副标题
-	subtitle: "这是普普的技术分享博客",
+	subtitle: "这是小庄的技术分享博客",
 
 	// 站点 URL
 	site_url: "https://blog.325761.xyz/",
 
 	// 站点描述
 	description:
-		"今天也在坚定地执行源石计划",
+		"无论冬天多漫长，春天都会如约而至",
 
 	// 站点关键词
 	keywords: [

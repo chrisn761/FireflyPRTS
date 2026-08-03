@@ -1,29 +1,32 @@
 # 关于我 / About Me
 
-你好！我是 **夏叶** ，一个在数字世界中默默无闻的一片叶子。
+你好！我是 **Chrisn**，一个兴趣使然的二次元科研牛马。
+
+目前是一名医工交叉领域的研究生，主要关注医学与工程技术的结合，喜欢在科研学习、编程实践和二次元文化之间寻找平衡。
 
 ## 🛠️ 关于本站
 
-这个网站使用 **Astro** 框架构建，采用了 [Firefly](https://github.com/CuteLeaf/Firefly) 模板，Firefly 是基于 [Fuwari](https://github.com/saicaca/fuwari) 的二次开发。
+这是一个由医工交叉领域研究生制作的科研分享网站，主要用于记录和分享科研学习过程中的思考、实践经验与技术积累。
 
-**Firefly** 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。
+本站内容可能涉及：
 
+- 医学与工程技术交叉领域的学习笔记
+- 科研方法、论文阅读与实验记录
+- 编程、数据分析与人工智能相关实践
+- 学术工具、效率提升与知识管理
+- 日常生活中的记录，以及当然，二次元！
 
-**🖥️在线预览： [Firefly - Demo site](https://firefly.cuteleaf.cn/)**
+希望通过这个网站整理自己的知识体系，也希望能够为同样对科研、技术或医工交叉领域感兴趣的朋友提供一些参考。
 
-**🏠我的博客： [https://blog.cuteleaf.cn](https://blog.cuteleaf.cn/)**
+本站使用 Astro 框架构建，并基于 Firefly 主题进行修改和定制。网站中的内容主要来自个人学习与实践，难免存在不足，欢迎交流与指正。
 
-**📝Firefly使用文档： [https://docs-firefly.cuteleaf.cn](https://docs-firefly.cuteleaf.cn/)**
+## 🔗 联系与代码
 
-**⭐Firefly开源地址：[https://github.com/CuteLeaf/Firefly](https://github.com/CuteLeaf/Firefly)** 
+你可以在 GitHub 上查看我的其他项目（可能投稿论文的开源代码）：
 
-**⭐Fuwari开源地址：[https://github.com/saicaca/fuwari](https://github.com/saicaca/fuwari)**
-
-::github{repo="CuteLeaf/Firefly"}
-
-::github{repo="saicaca/fuwari"}
+[https://github.com/chrisn761](https://github.com/chrisn761)
 
 ---
 
-*感谢你的来访！希望在这里能找到对你有用的内容！*
+*感谢你的来访！希望这里的内容能够对你有所帮助，也希望我们都能在科研与生活中持续探索，慢慢成长。*
 

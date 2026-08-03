@@ -6,7 +6,7 @@ export const announcementConfig: AnnouncementConfig = {
 
 	// 公告内容
 	content:
-		"庄方宜,女,龙族,1079年4月生,勾吴堪江人。现任武陵十六届区委常委、武陵研究院院长。",
+		"庄方宜,女,麒麟族,1079年4月生,勾吴堪江人。现任武陵十六届区委常委、武陵研究院院长。",
 
 	// 是否允许用户关闭公告
 	closable: true,
