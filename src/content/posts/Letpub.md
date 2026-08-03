@@ -2,7 +2,7 @@
 title: 科研入门第一期：如何查找适合投稿的期刊
 published: 2026-08-03
 pinned: true
-description: 介绍如何使用 LetPub 查询和筛选适合自己研究方向的投稿期刊，并了解投稿前需要关注的关键信息。
+description: 介绍如何使用 LetPub 查询和筛选适合自己研究方向的投稿期刊，并了解投稿前需要关注的信息。
 tags: [科研入门, 论文投稿, 查询期刊, LetPub]
 category: 科研分享
 image: ./images/4.jpg
