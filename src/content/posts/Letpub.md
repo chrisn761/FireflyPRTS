@@ -31,9 +31,7 @@ slug: Letpub
 
 打开 [LetPub 期刊查询](https://www.letpub.com.cn/index.php?page=journalapp&view=search&searchsort=relevance&searchname=)，可以根据以下关键信息查询期刊：
 
-<p align="center"><img src="./letpub.png" alt="LetPub 期刊查询界面" /></p>
-
-<p align="center"><strong>图 1. LetPub 期刊查询页面。</strong></p>
+![图 1. LetPub 期刊查询页面。](./letpub.png)
 
 - **期刊名称**：如果导师已经指定了目标期刊，可以直接搜索期刊名称；
 - **大类学科**：期刊所属的一级学科，例如“计算机科学”或“工程技术”；
@@ -63,9 +61,7 @@ slug: Letpub
 
 以 [Information Fusion](https://www.sciencedirect.com/journal/information-fusion) 为例，可以从以下几个方面进行了解。
 
-<p align="center"><img src="./information%20fusion.png" alt="Information Fusion 期刊主页" /></p>
-
-<p align="center"><strong>图 2. Information Fusion 期刊主页及其基本信息。</strong></p>
+![图 2. Information Fusion 期刊主页及其基本信息。](./information%20fusion.png)
 
 ### 1. 查看实时影响因子和分区
 
@@ -91,9 +87,7 @@ LetPub 等网站通常会整理期刊的影响因子、分区、审稿周期和�
 
 以博主在投的一区Top Information Fusion 为例，投稿前应进入期刊官方网站，找到 **Guide for Authors** 或 **Author Guidelines** 页面，查看最新投稿要求。
 
-<p align="center"><img src="./guideline.png" alt="Information Fusion 作者指南页面" /></p>
-
-<p align="center"><strong>图 3. Information Fusion 的作者指南（Guide for Authors）页面。</strong></p>
+![图 3. Information Fusion 的作者指南（Guide for Authors）页面。](./guideline.png)
 
 <strong style="color: #dc2626;">重要提示：每一本 Elsevier 期刊的作者指南页面开头通常都提供 “Print Guide as PDF” 功能，可直接下载作者指南 PDF；下载后也可以让 Codex 帮你分析重点要求。关于 Codex 的使用教程，我会在后续内容中更新。</strong>
 
@@ -144,15 +138,11 @@ Elsevier 是一家大型国际学术出版商，Information Fusion 就是 Elsevi
 
 从今年开始，部分 Elsevier 期刊会在 Editorial Manager 中再次跳转至 Elsevier 自己的期刊投稿流程页面，以完成新稿件的实际提交。不过，Editorial Manager 仍然是投稿过程中不可或缺的中转平台：可以在这里查询稿件状态、查看编辑决定，并向编辑发送催审稿或其他与稿件相关的邮件。
 
-<p align="center"><img src="./submit.png" alt="Information Fusion 的 Editorial Manager 投稿系统入口" /></p>
-
-<p align="center"><strong>图 4. Information Fusion 跳转至 Editorial Manager 后的投稿系统入口页面。</strong></p>
+![图 4. Information Fusion 跳转至 Editorial Manager 后的投稿系统入口页面。](./submit.png)
 
 上图是进入 Editorial Manager 后的期刊投稿系统主页，主要用于查看投稿说明、稿件状态和可执行的操作。准备新投稿时，选择 **Submit New Manuscript** 即可进入新稿件提交流程。
 
-<p align="center"><img src="./IF.png" alt="Information Fusion 新稿件提交页面" /></p>
-
-<p align="center"><strong>图 5. 选择 “Submit New Manuscript” 后进入的 Information Fusion 新稿件提交页面。</strong></p>
+![图 5. 选择 “Submit New Manuscript” 后进入的 Information Fusion 新稿件提交页面。](./IF.png)
 
 该页面用于按步骤填写稿件信息、作者信息、分类和声明，并上传论文及相关附件；它与图 4 的区别是，图 4 是投稿系统入口页，图 5 则是实际的新稿件提交流程页面。
 
@@ -164,9 +154,7 @@ Elsevier 是一家大型国际学术出版商，Information Fusion 就是 Elsevi
 - Highlights、Graphical Abstract 或数据可用性声明（如期刊要求）；
 - 其他与伦理、利益冲突或作者贡献相关的文件。
 
-<p align="center"><img src="./file.png" alt="Information Fusion 投稿文件上传示例" /></p>
-
-<p align="center"><strong>图 6. Information Fusion 投稿系统中的文件上传要求示例。</strong></p>
+![图 6. Information Fusion 投稿系统中的文件上传要求示例。](./file.png)
 
 ### 5. 通过评论区了解期刊风评
 
@@ -252,6 +240,7 @@ LetPub 的评论区可以作为了解期刊投稿体验的参考。通过近期�
 ---
 
 *科研入门系列，记录科研学习过程中的一些实用工具与经验。*
+
 
 
 
