@@ -1,4 +1,4 @@
-import { defineCollection } from "astro:content";
+﻿import { defineCollection } from "astro:content";
 import type { CollectionConfig } from "astro/content/config";
 import { glob } from "astro/loaders";
 import { type ZodType, z } from "astro/zod";
@@ -39,7 +39,7 @@ type ContentCollection<T> = CollectionConfig<
 >;
 
 const postsCollection: ContentCollection<PostData> = defineCollection({
-	loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/posts" }),
+	loader: glob({ pattern: "**/index.{md,mdx}", base: "./Blog" }),
 	schema: z.object({
 		title: z.string(),
 		published: z.date(),
@@ -91,3 +91,4 @@ export const collections: {
 	posts: postsCollection,
 	spec: specCollection,
 };
+

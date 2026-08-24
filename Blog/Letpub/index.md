@@ -5,7 +5,7 @@ pinned: true
 description: 介绍如何使用 LetPub 查询和筛选适合自己研究方向的投稿期刊，并了解投稿前需要关注的信息。
 tags: [科研入门, 论文投稿, 查询期刊, LetPub]
 category: 科研分享
-image: ./images/4.jpg
+image: ./4.jpg
 slug: Letpub
 ---
 
@@ -240,6 +240,7 @@ LetPub 的评论区可以作为了解期刊投稿体验的参考。通过近期�
 ---
 
 *科研入门系列，记录科研学习过程中的一些实用工具与经验。*
+
 
 
 
