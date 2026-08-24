@@ -1,4 +1,4 @@
----
+﻿---
 import { Image, Picture } from "astro:assets";
 import * as path from "node:path";
 import type { ImageMetadata } from "astro";
@@ -73,14 +73,23 @@ const isPublic = src.startsWith("/");
 // https://github.com/withastro/astro/issues/3373
 let img: ImageMetadata | null = null;
 if (isLocal) {
-	const files = import.meta.glob<ImageMetadata>(
+	const sourceFiles = import.meta.glob<ImageMetadata>(
 		"../../**/*.{png,jpg,jpeg,webp,avif}",
 		{
 			import: "default",
 		},
 	);
+	const blogFiles = import.meta.glob<ImageMetadata>(
+		"../../../Blog/**/*.{png,jpg,jpeg,webp,avif}",
+		{
+			import: "default",
+		},
+	);
+	const isBlogContent = basePath === "Blog" || basePath.startsWith("Blog/");
+	const files = isBlogContent ? blogFiles : sourceFiles;
+	const rootPath = isBlogContent ? "../../../" : "../../";
 	let normalizedPath = path
-		.normalize(path.join("../../", basePath, src))
+		.normalize(path.join(rootPath, basePath, src))
 		.replace(/\\/g, "/");
 	const file = files[normalizedPath];
 	if (!file) {
@@ -150,3 +159,4 @@ const lqipProps = isLocal
     )}
     {!isLocal && <img src={isPublic ? url(src) : src} alt={alt || ""} class={imageClass} style={imageStyle} loading={loading} fetchpriority={fetchpriority} data-cover-img={dataCoverImg ? true : undefined} referrerpolicy={referrerPolicy} />}
 </div>
+
