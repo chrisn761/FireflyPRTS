@@ -74,7 +74,7 @@ const specCollection: ContentCollection<Record<string, never>> =
 	});
 
 const dynamicCollection: ContentCollection<DynamicData> = defineCollection({
-	loader: glob({ pattern: "**/*.md", base: "./src/content/dynamic" }),
+	loader: glob({ pattern: "**/*.md", base: "./Blog/Dynamic" }),
 	schema: z.object({
 		published: z.date(),
 		pinned: z.boolean().optional().default(false),

@@ -106,7 +106,7 @@ function formatDate(timestamp: number): string {
 			{@const text = getPlainText(entry.html)}
 			{@const image = entry.images?.[0]}
 			<a
-				href={url(`/dynamic/#dynamic-${entry.id}`)}
+				href={url(`/dynamic/#dynamic-${entry.id.replace(/[^a-zA-Z0-9_-]/g, "-")}`)}
 				class="group flex min-w-0 min-h-16 items-center gap-3 rounded-lg p-2
 					text-neutral-700/75 dark:text-neutral-300/75
 					hover:bg-(--btn-plain-bg-hover) hover:text-(--primary)

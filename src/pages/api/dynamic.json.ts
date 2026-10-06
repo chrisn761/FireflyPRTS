@@ -5,8 +5,32 @@ import {
 	dynamicSlug,
 	sortDynamics,
 } from "@/utils/dynamic-utils";
+import { url } from "@/utils/url-utils";
+import { posix } from "node:path";
+
+const dynamicImages = import.meta.glob<string>(
+	"/Blog/Dynamic/**/*.{jpg,jpeg,png,webp,avif,gif,svg}",
+	{ eager: true, query: "?url", import: "default" },
+);
 
 const markdownImagePattern = /!\[([^\]]*)\]\((\S+?)(?:\s+["']([^"']*)["'])?\)/g;
+
+const resolveDynamicImage = (
+	entryFilePath: string | undefined,
+	source: string,
+): string => {
+	if (/^(https?:)?\/\//.test(source) || source.startsWith("data:")) {
+		return source;
+	}
+
+	if (source.startsWith("/")) return url(source);
+	if (!entryFilePath) throw new Error("Missing dynamic file path");
+	const filePath = entryFilePath.replace(/\\/g, "/");
+	const path = posix.join("/", posix.dirname(filePath), decodeURIComponent(source));
+	const imageUrl = dynamicImages[path];
+	if (!imageUrl) throw new Error(`Dynamic image not found: ${path}`);
+	return imageUrl;
+};
 
 export async function GET(): Promise<Response> {
 	const processor = await createMarkdownProcessor();
@@ -17,7 +41,14 @@ export async function GET(): Promise<Response> {
 			const markdown = (entry.body || "").replace(
 				markdownImagePattern,
 				(_match, alt: string, src: string, title?: string) => {
-					images.push({ alt, src, ...(title ? { title } : {}) });
+					images.push({
+						alt,
+						src: resolveDynamicImage(
+						(entry as { filePath?: string }).filePath,
+						src,
+					),
+						...(title ? { title } : {}),
+					});
 					return "";
 				},
 			);

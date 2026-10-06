@@ -9,7 +9,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	showInSidebar: true,
 
 	// 使用方式："meting" 使用 Meting API，"local" 使用本地音乐列表
-	mode: "meting",
+	mode: "local",
 
 	// 默认音量 (0-1)
 	volume: 0.7,
@@ -48,11 +48,18 @@ meting: {
 	local: {
 		playlist: [
 			{
-				name: "使一颗心免于哀伤",
-				artist: "知更鸟 / HOYO-MiX / Chevy",
-				url: "/assets/music/使一颗心免于哀伤-哼唱.mp3",
-				cover: "/assets/music/cover/109951169585655912.webp",
-				lrc: "",
+				name: "远航星的告别",
+				artist: "鸣潮先约电台 / jixwang / Tarokiki / Emi Evans",
+				url: "/assets/music/music/鸣潮先约电台 _ jixwang _ Tarokiki _ Emi Evans - 远航星的告别.mp3",
+				cover: "/assets/music/cover/鸣潮先约电台 _ jixwang _ Tarokiki _ Emi Evans - 远航星的告别.jpg",
+				lrc: "/assets/music/lrc/鸣潮先约电台 _ jixwang _ Tarokiki _ Emi Evans - 远航星的告别.lrc",
+			},
+			{
+				name: "焚蝶",
+				artist: "铁痕电台-MSR / Aurora Sky / Lucien X",
+				url: "/assets/music/music/铁痕电台-MSR _ Aurora Sky _ Lucien X - 焚蝶.mp3",
+				cover: "/assets/music/cover/铁痕电台-MSR _ Aurora Sky _ Lucien X - 焚蝶.jpg",
+				lrc: "/assets/music/lrc/铁痕电台-MSR _ Aurora Sky _ Lucien X - 焚蝶.lrc",
 			},
 		],
 	},
