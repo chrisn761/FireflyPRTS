@@ -48,6 +48,13 @@ meting: {
 	local: {
 		playlist: [
 			{
+				name: "月声尽，心灯明",
+				artist: "鸣潮先约电台 / jixwang / Cassie Wei",
+				url: "/assets/music/music/鸣潮先约电台 _ jixwang _ Cassie Wei - 月声尽，心灯明.mp3",
+				cover: "/assets/music/cover/鸣潮先约电台 _ jixwang _ Cassie Wei - 月声尽，心灯明.jpg",
+				lrc: "/assets/music/lrc/鸣潮先约电台 _ jixwang _ Cassie Wei - 月声尽，心灯明.lrc",
+			},
+			{
 				name: "远航星的告别",
 				artist: "鸣潮先约电台 / jixwang / Tarokiki / Emi Evans",
 				url: "/assets/music/music/鸣潮先约电台 _ jixwang _ Tarokiki _ Emi Evans - 远航星的告别.mp3",
