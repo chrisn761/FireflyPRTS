@@ -32,3 +32,8 @@ Use Conventional Commits, matching the current history: `feat: ...`, `fix: ...`,
 ## Security & Configuration Tips
 
 Do not commit secrets, tokens, or service keys in config files. Keep deployment-specific settings in the target platform environment, and review generated files such as `dist`, `src/constants/lqips.json`, and `src/constants/icons.ts` before committing them.
+
+## Music Asset Encoding
+
+When adding or replacing music, verify that the audio, cover, and LRC paths in `src/config/musicConfig.ts` exist. All lyrics under `public/assets/music/lrc` must use UTF-8 (preferably without BOM). Validate the raw bytes with strict UTF-8 decoding; checking timestamps alone does not detect encoding problems. For GBK/GB18030 source lyrics, decode using the source encoding, verify readable Chinese metadata and lossless round-trip conversion, then save as UTF-8 while preserving timestamps and text. Do not save already garbled text as UTF-8. Apply this check for every future music addition.
+
