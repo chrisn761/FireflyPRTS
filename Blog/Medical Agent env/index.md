@@ -2,6 +2,7 @@
 title: 医学 AI Agent 开发日志（一）：前期环境配置
 published: 2026-11-18
 pinned: false
+order: 1
 description: 从 Windows 开发环境出发，记录 PyCharm、Anaconda、Ollama 与 Docker 的安装要点，以及模型存储和旧环境迁移中需要注意的问题。
 tags: [医学AI, Agent, 环境配置, Python, Ollama, Docker, 开发日志]
 category: 医学AI技术文档

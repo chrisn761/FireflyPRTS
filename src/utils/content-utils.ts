@@ -3,21 +3,31 @@ import I18nKey from "@i18n/i18nKey";
 import { i18n } from "@i18n/translation";
 import { getCategoryUrl } from "@utils/url-utils";
 
-// // Retrieve posts and sort them by publication date
+// 置顶优先，其次手动顺序，最后按发布日期倒序。
 async function getRawSortedPosts() {
 	const allBlogPosts = await getCollection("posts", ({ data }) => {
 		return import.meta.env.PROD ? data.draft !== true : true;
 	});
 
 	const sorted = allBlogPosts.sort((a, b) => {
+		// 固定末尾的文章始终排在其他文章之后。
+		if (a.data.alwaysLast !== b.data.alwaysLast) {
+			return a.data.alwaysLast ? 1 : -1;
+		}
+
 		// 首先按置顶状态排序，置顶文章在前
 		if (a.data.pinned && !b.data.pinned) return -1;
 		if (!a.data.pinned && b.data.pinned) return 1;
 
-		// 如果置顶状态相同，则按发布日期排序
+		// 设置 order 的文章优先展示，数字越小越靠前。
+		const orderA = a.data.order ?? Number.POSITIVE_INFINITY;
+		const orderB = b.data.order ?? Number.POSITIVE_INFINITY;
+		if (orderA !== orderB) return orderA < orderB ? -1 : 1;
+
+		// 同优先级按发布日期倒序，同日用 ID 保持稳定顺序。
 		const dateA = new Date(a.data.published);
 		const dateB = new Date(b.data.published);
-		return dateA > dateB ? -1 : 1;
+		return dateB.getTime() - dateA.getTime() || a.id.localeCompare(b.id);
 	});
 	return sorted;
 }

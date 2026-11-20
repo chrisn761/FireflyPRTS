@@ -48,6 +48,55 @@ meting: {
 	local: {
 		playlist: [
 			{
+				name: "RUNNING FOR YOUR LIFE (无所遁藏)",
+				artist: "鸣潮先约电台 / Casey Lee Williams",
+				url: "/assets/music/music/鸣潮先约电台 _ Casey Lee Williams - RUNNING FOR YOUR LIFE (无所遁藏).mp3",
+				cover: "/assets/music/cover/鸣潮先约电台 _ Casey Lee Williams - RUNNING FOR YOUR LIFE (无所遁藏).jpg",
+				lrc: "/assets/music/lrc/鸣潮先约电台 _ Casey Lee Williams - RUNNING FOR YOUR LIFE (无所遁藏).lrc",
+			},
+			{
+				name: "那颗星梦见的春日",
+				artist: "鸣潮先约电台 / jixwang / 小林未郁",
+				url: "/assets/music/music/鸣潮先约电台 _ jixwang _ 小林未郁 - 那颗星梦见的春日.mp3",
+				cover: "/assets/music/cover/鸣潮先约电台 _ jixwang _ Tarokiki _ Emi Evans - 远航星的告别.jpg",
+				lrc: "/assets/music/lrc/鸣潮先约电台 _ jixwang _ 小林未郁 - 那颗星梦见的春日.lrc",
+			},
+			{
+				name: "于无羁之昼点亮真彩 (Throttle Up!)",
+				artist: "鸣潮先约电台 / jixwang / Laco",
+				url: "/assets/music/music/鸣潮先约电台 _ jixwang _ Laco - 于无羁之昼点亮真彩 (Throttle Up!).mp3",
+				cover: "/assets/music/cover/鸣潮先约电台 _ jixwang _ Laco - 于无羁之昼点亮真彩 (Throttle Up!).jpg",
+				lrc: "/assets/music/lrc/鸣潮先约电台 _ jixwang _ Laco - 于无羁之昼点亮真彩 (Throttle Up!).lrc",
+			},
+			{
+				name: "酣梦于彼岸深红",
+				artist: "鸣潮先约电台 / jixwang / VISION SOUND",
+				url: "/assets/music/music/鸣潮先约电台 _ jixwang _ VISION SOUND - 酣梦于彼岸深红.mp3",
+				cover: "/assets/music/cover/鸣潮先约电台 _ jixwang _ VISION SOUND - 酣梦于彼岸深红.jpg",
+				lrc: "/assets/music/lrc/鸣潮先约电台 _ jixwang _ VISION SOUND - 酣梦于彼岸深红.lrc",
+			},
+			{
+				name: "愿戴荣光坠入天渊",
+				artist: "鸣潮先约电台 / jixwang / VISION SOUND",
+				url: "/assets/music/music/鸣潮先约电台 _ jixwang _ VISION SOUND - 愿戴荣光坠入天渊.mp3",
+				cover: "/assets/music/cover/鸣潮先约电台 _ jixwang _ VISION SOUND - 愿戴荣光坠入天渊.jpg",
+				lrc: "/assets/music/lrc/鸣潮先约电台 _ jixwang _ VISION SOUND - 愿戴荣光坠入天渊.lrc",
+			},
+			{
+				name: "烈阳啊，请见我真名",
+				artist: "鸣潮先约电台 / jkinss / Zho Davis / Aderemi Adesoji Adeniyi / VISION SOUND",
+				url: "/assets/music/music/鸣潮先约电台 _ jkinss _ Zho Davis _ Aderemi Adesoji Adeniyi _ VISION SOUND - 烈阳啊，请见我真名.mp3",
+				cover: "/assets/music/cover/鸣潮先约电台 _ jkinss _ Zho Davis _ Aderemi Adesoji Adeniyi _ VISION SOUND - 烈阳啊，请见我真名.jpg",
+				lrc: "/assets/music/lrc/鸣潮先约电台 _ jkinss _ Zho Davis _ Aderemi Adesoji Adeniyi _ VISION SOUND - 烈阳啊，请见我真名.lrc",
+			},
+			{
+				name: "A Necessary Message",
+				artist: "塞壬唱片-MSR / Chapters / Ben Hicks / Sofia Silvestri",
+				url: "/assets/music/music/塞壬唱片-MSR _ Chapters _ Ben Hicks _ Sofia Silvestri - A Necessary Message.mp3",
+				cover: "/assets/music/cover/塞壬唱片-MSR _ Chapters _ Ben Hicks _ Sofia Silvestri - A Necessary Message.jpg",
+				lrc: "/assets/music/lrc/塞壬唱片-MSR _ Chapters _ Ben Hicks _ Sofia Silvestri - A Necessary Message.lrc",
+			},
+			{
 				name: "月声尽，心灯明",
 				artist: "鸣潮先约电台 / jixwang / Cassie Wei",
 				url: "/assets/music/music/鸣潮先约电台 _ jixwang _ Cassie Wei - 月声尽，心灯明.mp3",

@@ -9,10 +9,8 @@ import { getPostUrlBySlug, url } from "@/utils/url-utils";
 // 与年份折叠由客户端脚本处理——数据本身在构建期已全部就绪。
 const sortedPostsList = await getSortedPostsList();
 
-// 严格按发布时间倒序（不受置顶影响），镜像原 Svelte 版行为
-const posts = sortedPostsList
-	.slice()
-	.sort((a, b) => b.data.published.getTime() - a.data.published.getTime());
+// 年份内沿用首页顺序，保留置顶、手动顺序及固定末尾设置。
+const posts = sortedPostsList;
 
 // 按年份分组
 const grouped = new Map<number, typeof posts>();
