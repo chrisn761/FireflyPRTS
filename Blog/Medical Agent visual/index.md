@@ -1,4 +1,6 @@
 ---
+password: "902902902"
+passwordHint: "请联系作者获取密码"
 title: 医学 AI Agent 开发日志（三）：视觉特征提取与微调初判
 published: 2026-11-20
 pinned: false

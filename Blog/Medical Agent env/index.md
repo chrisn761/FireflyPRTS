@@ -1,4 +1,6 @@
 ---
+password: "902902902"
+passwordHint: "请联系作者获取密码"
 title: 医学 AI Agent 开发日志（一）：前期环境配置
 published: 2026-11-18
 pinned: false

@@ -1,4 +1,6 @@
 ---
+password: "902902902"
+passwordHint: "请联系作者获取密码"
 title: 医学 AI Agent 开发日志（二）：HTP-VTDA 的模型选择与关键技术
 published: 2026-11-20
 pinned: false
